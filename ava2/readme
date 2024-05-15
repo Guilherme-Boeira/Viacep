@@ -1,0 +1,10 @@
+executar o arquivo "bancoSQL.sql" para criar o banco de dados
+Utilizar xampp ou mamp para criar servido apache
+No arquivo conn.php alterar as informações de autenticação padrão do banco Mysql
+
+{
+$host = "localhost";
+$db = "viacep";
+$user = "root";
+$pass = "";
+}

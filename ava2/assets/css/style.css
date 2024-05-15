@@ -1,0 +1,88 @@
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o cabeçalho principal */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilo para o formulário de consulta */
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilo para os inputs e botões */
+input[type="text"],
+button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00c3ff;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Estilo específico para o botão de salvar */
+.btnSalvar {
+    color: rgb(255, 255, 255);
+    margin-left: 86.4%;
+}
+
+/* Estilo para o input de texto */
+input[type="text"] {
+    width: 200px;
+}
+
+/* Estilo para o efeito hover nos botões */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para a tabela de endereço */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+/* Estilo para as células da tabela */
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+/* Estilo para os cabeçalhos e células da tabela */
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Estilo para a seção de endereços registrados */
+h2 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/*estilo para footer */
+footer {
+    background-color: #c2c2c22a; 
+    color: #fff;
+    padding: 20px; 
+    text-align: center; 
+}
+
+footer .link {
+    color: #000000; 
+    text-decoration: none; 
+}
+
+footer .link:hover {
+    color: #00c3ff;
+}
